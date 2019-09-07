@@ -1,0 +1,17 @@
+{
+    "name": "epaper-image-server",
+    "version": "0.0.1",
+    "description": "Node server app to provide primary and secondary bytearrays for epaper display",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"No tests yet\" && exit 1"
+    },
+    "author": "Sami Viitanen",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "express-pino-logger": "^4.0.0",
+        "sharp": "^0.23.0"
+    }
+}
